@@ -1,0 +1,26 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
+}
+
+.container {
+  width: 80%;
+  display: flex;
+  flex-wrap: wrap;
+  background-color: lightgray;
+}
+
+.child {
+  width: 30%;
+  height: 50px;
+  background-color: green;
+  margin-right: 5%;
+  margin-bottom: 10px; /* Dodano margines dolny dla lepszego wyglądu */
+}
+
+.child:nth-child(3n) {
+  margin-right: 0;
+}
